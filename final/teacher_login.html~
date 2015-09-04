@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Teacher Login</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="teacher_login1.css">
+<link rel="stylesheet" type="text/css" href="teacher_login2.css">
+</head>
+
+<body><!--
+<form action="login.php" method="post" class="box login">
+	<fieldset class="boxBody">
+	  <label for="username">Username</label>
+	  <input type="text" tabindex="1" placeholder="username" required>
+	  <label for="password">Password</label>
+	  <input type="password" tabindex="2" required>
+	</fieldset>
+	<footer>
+	  <label><input type="checkbox" tabindex="3">Keep me logged in</label>
+	  <input type="submit" class="btnLogin" value="Login" tabindex="4">
+	</footer>
+</form> -->
+<form action="login.php" method="post" class="box login">
+<fieldset class="boxBody">
+  <h1>Student Login</h1>
+  <div class="inset">
+  <p>
+    <label for="username">USERNAME</label>
+    <input type="text" name="username" >
+  </p>
+  <p>
+    <label for="password">PASSWORD</label>
+    <input type="password" name="password">
+  </p>
+  </fieldset>
+  <p>
+    <input type="checkbox" name="remember" >
+    <label for="remember">Remember me</label>
+  </p>
+  </div>
+  <p>
+    <input type="submit" class="brnLogin" name="go" value="Log in">
+  </p>
+</form>
+</body>
+</html>
